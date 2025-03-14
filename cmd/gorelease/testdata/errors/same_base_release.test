@@ -5,4 +5,4 @@ error=true
 -- want --
 usage: gorelease [-base=version] [-version=version]
 -base and -version must be different
-For more information, run go doc golang.org/x/exp/cmd/gorelease
+For more information, run go doc github.com/jcbhmr/exp/cmd/gorelease

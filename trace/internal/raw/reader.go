@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"io"
 
-	"golang.org/x/exp/trace/internal/event"
-	"golang.org/x/exp/trace/internal/version"
+	"github.com/jcbhmr/exp/trace/internal/event"
+	"github.com/jcbhmr/exp/trace/internal/version"
 )
 
 // Reader parses trace bytes with only very basic validation

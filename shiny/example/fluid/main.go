@@ -6,7 +6,7 @@
 // +build example
 
 //
-// This build tag means that "go install golang.org/x/exp/shiny/..." doesn't
+// This build tag means that "go install github.com/jcbhmr/exp/shiny/..." doesn't
 // install this example program. Use "go run main.go" to run it or "go install
 // -tags=example" to install it.
 
@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/exp/shiny/driver"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/jcbhmr/exp/shiny/driver"
+	"github.com/jcbhmr/exp/shiny/screen"
 	"golang.org/x/mobile/event/lifecycle"
 	"golang.org/x/mobile/event/mouse"
 	"golang.org/x/mobile/event/paint"

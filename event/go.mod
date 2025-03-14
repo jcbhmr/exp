@@ -1,4 +1,4 @@
-module golang.org/x/exp/event
+module github.com/jcbhmr/exp/event
 
 go 1.23.0
 

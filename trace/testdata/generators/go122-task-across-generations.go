@@ -17,9 +17,9 @@
 package main
 
 import (
-	"golang.org/x/exp/trace"
-	"golang.org/x/exp/trace/internal/event/go122"
-	testgen "golang.org/x/exp/trace/internal/testgen/go122"
+	"github.com/jcbhmr/exp/trace"
+	"github.com/jcbhmr/exp/trace/internal/event/go122"
+	testgen "github.com/jcbhmr/exp/trace/internal/testgen/go122"
 )
 
 func main() {

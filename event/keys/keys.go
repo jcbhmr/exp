@@ -5,7 +5,7 @@
 package keys
 
 import (
-	"golang.org/x/exp/event"
+	"github.com/jcbhmr/exp/event"
 )
 
 // Value represents a key for untyped values.

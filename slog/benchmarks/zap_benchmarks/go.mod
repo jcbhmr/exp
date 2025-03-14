@@ -1,10 +1,10 @@
-module golang.org/x/exp/slog/benchmarks/zap_benchmarks
+module github.com/jcbhmr/exp/slog/benchmarks/zap_benchmarks
 
 go 1.23.0
 
 require (
 	go.uber.org/zap v1.24.0
-	golang.org/x/exp v0.0.0-20220909182711-5c715a9e8561
+	github.com/jcbhmr/exp v0.0.0-20220909182711-5c715a9e8561
 )
 
 require (
@@ -12,4 +12,4 @@ require (
 	go.uber.org/multierr v1.6.0 // indirect
 )
 
-replace golang.org/x/exp => ../../..
+replace github.com/jcbhmr/exp => ../../..

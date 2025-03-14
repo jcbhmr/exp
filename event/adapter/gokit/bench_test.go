@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/go-kit/kit/log"
-	"golang.org/x/exp/event/adapter/logfmt"
-	"golang.org/x/exp/event/eventtest"
+	"github.com/jcbhmr/exp/event/adapter/logfmt"
+	"github.com/jcbhmr/exp/event/eventtest"
 )
 
 var (

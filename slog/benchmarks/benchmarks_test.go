@@ -10,8 +10,8 @@ import (
 	"io"
 	"testing"
 
-	"golang.org/x/exp/slog"
-	"golang.org/x/exp/slog/internal"
+	"github.com/jcbhmr/exp/slog"
+	"github.com/jcbhmr/exp/slog/internal"
 )
 
 func init() {

@@ -16,8 +16,8 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/exp/trace/internal/event"
-	"golang.org/x/exp/trace/internal/version"
+	"github.com/jcbhmr/exp/trace/internal/event"
+	"github.com/jcbhmr/exp/trace/internal/version"
 )
 
 // TextReader parses a text format trace with only very basic validation

@@ -6,7 +6,6 @@ package fmt_test
 
 import (
 	"bytes"
-	. "golang.org/x/exp/errors/fmt"
 	"io"
 	"math"
 	"reflect"
@@ -14,6 +13,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	. "github.com/jcbhmr/exp/errors/fmt"
 	// "unicode"
 )
 

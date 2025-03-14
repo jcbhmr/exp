@@ -12,7 +12,7 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"golang.org/x/exp/errors"
+	"github.com/jcbhmr/exp/errors"
 )
 
 // Strings for use with buffer.WriteString.

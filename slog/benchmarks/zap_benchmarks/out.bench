@@ -1,6 +1,6 @@
 goos: linux
 goarch: amd64
-pkg: golang.org/x/exp/slog/benchmarks/zap_benchmarks
+pkg: github.com/jcbhmr/exp/slog/benchmarks/zap_benchmarks
 cpu: Intel(R) Xeon(R) CPU @ 2.20GHz
 BenchmarkAttrs/async_discard/5_args-8  	 3510766	       350.9 ns/op	     320 B/op	       1 allocs/op
 BenchmarkAttrs/async_discard/5_args-8  	 3405861	       338.9 ns/op	     320 B/op	       1 allocs/op
@@ -93,4 +93,4 @@ BenchmarkAttrs/JSON_discard/40_args-8            	  290971	      4094 ns/op	    
 BenchmarkAttrs/JSON_discard/40_args-8            	  277810	      4109 ns/op	    2699 B/op	       1 allocs/op
 BenchmarkAttrs/JSON_discard/40_args-8            	  286332	      4221 ns/op	    2700 B/op	       1 allocs/op
 PASS
-ok  	golang.org/x/exp/slog/benchmarks/zap_benchmarks	140.608s
+ok  	github.com/jcbhmr/exp/slog/benchmarks/zap_benchmarks	140.608s

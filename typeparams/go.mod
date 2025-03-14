@@ -1,3 +1,3 @@
-module golang.org/x/exp/typeparams
+module github.com/jcbhmr/exp/typeparams
 
 go 1.23.0

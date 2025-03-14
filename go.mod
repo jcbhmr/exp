@@ -1,4 +1,4 @@
-module golang.org/x/exp
+module github.com/jcbhmr/exp
 
 go 1.23.0
 

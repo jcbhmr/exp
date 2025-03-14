@@ -3,7 +3,7 @@
 # Use of this source code is governed by a BSD-style
 # license that can be found in the LICENSE file.
 
-# This script copies this directory to golang.org/x/exp/trace.
+# This script copies this directory to github.com/jcbhmr/exp/trace.
 # Just point it at a Go commit or a local Go checkout.
 
 set -e
@@ -74,12 +74,12 @@ mv $DST/testtrace $DST/internal/testtrace
 mv $DST/testdata/cmd $DST/cmd
 
 # Fix up import paths.
-find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's internal/trace golang.org/x/exp/trace '
-find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's golang.org/x/exp/trace/raw golang.org/x/exp/trace/internal/raw '
-find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's golang.org/x/exp/trace/event golang.org/x/exp/trace/internal/event '
-find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's golang.org/x/exp/trace/event/go122 golang.org/x/exp/trace/internal/event/go122 '
-find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's golang.org/x/exp/trace/version golang.org/x/exp/trace/internal/version '
-find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's golang.org/x/exp/trace/testtrace golang.org/x/exp/trace/internal/testtrace '
+find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's internal/trace github.com/jcbhmr/exp/trace '
+find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's github.com/jcbhmr/exp/trace/raw github.com/jcbhmr/exp/trace/internal/raw '
+find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's github.com/jcbhmr/exp/trace/event github.com/jcbhmr/exp/trace/internal/event '
+find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's github.com/jcbhmr/exp/trace/event/go122 github.com/jcbhmr/exp/trace/internal/event/go122 '
+find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's github.com/jcbhmr/exp/trace/version github.com/jcbhmr/exp/trace/internal/version '
+find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's github.com/jcbhmr/exp/trace/testtrace github.com/jcbhmr/exp/trace/internal/testtrace '
 find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's internal/txtar golang.org/x/tools/txtar '
 
 # Add build tag for Go 1.21 and generated code comment.

@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"os"
 
-	"golang.org/x/exp/jsonrpc2/internal/stack"
+	"github.com/jcbhmr/exp/jsonrpc2/internal/stack"
 )
 
 func main() {

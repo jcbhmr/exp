@@ -15,8 +15,8 @@ import (
 	"log"
 	"os"
 
-	"golang.org/x/exp/trace"
-	"golang.org/x/exp/trace/internal/testtrace"
+	"github.com/jcbhmr/exp/trace"
+	"github.com/jcbhmr/exp/trace/internal/testtrace"
 )
 
 func init() {

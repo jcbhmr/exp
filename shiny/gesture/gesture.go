@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"time"
 
-	"golang.org/x/exp/shiny/screen"
+	"github.com/jcbhmr/exp/shiny/screen"
 	"golang.org/x/mobile/event/mouse"
 )
 

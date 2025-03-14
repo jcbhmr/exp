@@ -3,7 +3,7 @@ package eventtest
 import (
 	"context"
 
-	"golang.org/x/exp/event"
+	"github.com/jcbhmr/exp/event"
 )
 
 type CaptureHandler struct {

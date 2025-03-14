@@ -1,6 +1,6 @@
 goos: linux
 goarch: amd64
-pkg: golang.org/x/exp/slog/benchmarks
+pkg: github.com/jcbhmr/exp/slog/benchmarks
 cpu: Intel(R) Xeon(R) CPU @ 2.20GHz
 BenchmarkAttrs/disabled/5_args-8  	85028928	        11.94 ns/op	       0 B/op	       0 allocs/op
 BenchmarkAttrs/disabled/5_args-8  	97603412	        11.20 ns/op	       0 B/op	       0 allocs/op
@@ -203,4 +203,4 @@ BenchmarkAttrs/JSON_discard/40_args-8        	  274155	      4349 ns/op	    1412
 BenchmarkAttrs/JSON_discard/40_args-8        	  296401	      4584 ns/op	    1412 B/op	       1 allocs/op
 BenchmarkAttrs/JSON_discard/40_args-8        	  277298	      4393 ns/op	    1412 B/op	       1 allocs/op
 PASS
-ok  	golang.org/x/exp/slog/benchmarks	296.660s
+ok  	github.com/jcbhmr/exp/slog/benchmarks	296.660s

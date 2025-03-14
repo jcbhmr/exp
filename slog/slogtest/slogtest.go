@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"time"
 
-	"golang.org/x/exp/slog"
+	"github.com/jcbhmr/exp/slog"
 )
 
 type testCase struct {

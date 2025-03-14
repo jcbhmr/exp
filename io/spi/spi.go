@@ -8,12 +8,12 @@
 //
 // This package is not maintained anymore. An actively supported cross-platform
 // alternative is https://periph.io/.
-package spi // import "golang.org/x/exp/io/spi"
+package spi // import "github.com/jcbhmr/exp/io/spi"
 
 import (
 	"time"
 
-	"golang.org/x/exp/io/spi/driver"
+	"github.com/jcbhmr/exp/io/spi/driver"
 )
 
 // Mode represents the SPI mode number where clock parity (CPOL)

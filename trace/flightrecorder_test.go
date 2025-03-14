@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/exp/trace/internal/testtrace"
+	"github.com/jcbhmr/exp/trace/internal/testtrace"
 
-	. "golang.org/x/exp/trace"
+	. "github.com/jcbhmr/exp/trace"
 )
 
 func TestFlightRecorderDoubleStart(t *testing.T) {

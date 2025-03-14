@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/exp/trace/internal/event"
-	"golang.org/x/exp/trace/internal/event/go122"
-	"golang.org/x/exp/trace/internal/version"
+	"github.com/jcbhmr/exp/trace/internal/event"
+	"github.com/jcbhmr/exp/trace/internal/event/go122"
+	"github.com/jcbhmr/exp/trace/internal/version"
 )
 
 // EventKind indicates the kind of event this is.

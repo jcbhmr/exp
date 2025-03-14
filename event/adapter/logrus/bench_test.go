@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jcbhmr/exp/event/eventtest"
 	"github.com/sirupsen/logrus"
-	"golang.org/x/exp/event/eventtest"
 )
 
 var (

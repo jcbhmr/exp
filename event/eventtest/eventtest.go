@@ -17,8 +17,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/adapter/logfmt"
+	"github.com/jcbhmr/exp/event"
+	"github.com/jcbhmr/exp/event/adapter/logfmt"
 )
 
 // NewContext returns a context you should use for the active test.

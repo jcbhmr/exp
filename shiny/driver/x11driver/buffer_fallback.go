@@ -11,7 +11,7 @@ import (
 	"github.com/jezek/xgb"
 	"github.com/jezek/xgb/xproto"
 
-	"golang.org/x/exp/shiny/driver/internal/swizzle"
+	"github.com/jcbhmr/exp/shiny/driver/internal/swizzle"
 )
 
 const (

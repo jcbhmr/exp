@@ -15,7 +15,7 @@ import (
 	"reflect"
 	"strings"
 
-	"golang.org/x/exp/goexperiment"
+	"github.com/jcbhmr/exp/goexperiment"
 )
 
 func main() {

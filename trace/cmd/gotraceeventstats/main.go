@@ -19,8 +19,8 @@ import (
 	"slices"
 	"text/tabwriter"
 
-	"golang.org/x/exp/trace/internal/event"
-	"golang.org/x/exp/trace/internal/raw"
+	"github.com/jcbhmr/exp/trace/internal/event"
+	"github.com/jcbhmr/exp/trace/internal/raw"
 )
 
 func init() {

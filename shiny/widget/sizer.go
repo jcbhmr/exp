@@ -5,9 +5,9 @@
 package widget
 
 import (
-	"golang.org/x/exp/shiny/unit"
-	"golang.org/x/exp/shiny/widget/node"
-	"golang.org/x/exp/shiny/widget/theme"
+	"github.com/jcbhmr/exp/shiny/unit"
+	"github.com/jcbhmr/exp/shiny/widget/node"
+	"github.com/jcbhmr/exp/shiny/widget/theme"
 )
 
 // Sizer is a shell widget that overrides its child's measured size.

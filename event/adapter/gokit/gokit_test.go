@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/adapter/gokit"
-	"golang.org/x/exp/event/eventtest"
+	"github.com/jcbhmr/exp/event"
+	"github.com/jcbhmr/exp/event/adapter/gokit"
+	"github.com/jcbhmr/exp/event/eventtest"
 )
 
 func Test(t *testing.T) {

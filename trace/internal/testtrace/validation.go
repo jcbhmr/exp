@@ -11,7 +11,7 @@ package testtrace
 import (
 	"errors"
 	"fmt"
-	"golang.org/x/exp/trace"
+	"github.com/jcbhmr/exp/trace"
 	"slices"
 	"strings"
 )

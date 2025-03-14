@@ -18,8 +18,8 @@ import (
 	"slices"
 	"strings"
 
-	"golang.org/x/exp/trace/internal/event"
-	"golang.org/x/exp/trace/internal/event/go122"
+	"github.com/jcbhmr/exp/trace/internal/event"
+	"github.com/jcbhmr/exp/trace/internal/event/go122"
 )
 
 // generation contains all the trace data for a single

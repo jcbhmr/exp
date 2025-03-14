@@ -12,8 +12,8 @@ import (
 	"fmt"
 	"io"
 
-	"golang.org/x/exp/trace/internal/event"
-	"golang.org/x/exp/trace/internal/event/go122"
+	"github.com/jcbhmr/exp/trace/internal/event"
+	"github.com/jcbhmr/exp/trace/internal/event/go122"
 )
 
 // Version represents the version of a trace file.

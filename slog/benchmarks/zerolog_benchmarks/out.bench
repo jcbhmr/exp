@@ -1,6 +1,6 @@
 goos: linux
 goarch: amd64
-pkg: golang.org/x/exp/slog/benchmarks/zerolog_benchmarks
+pkg: github.com/jcbhmr/exp/slog/benchmarks/zerolog_benchmarks
 cpu: Intel(R) Xeon(R) CPU @ 2.20GHz
 BenchmarkAttrs/JSON_discard/5_args-8  	 4137742	       295.7 ns/op	       0 B/op	       0 allocs/op
 BenchmarkAttrs/JSON_discard/5_args-8  	 4177807	       290.7 ns/op	       0 B/op	       0 allocs/op
@@ -23,4 +23,4 @@ BenchmarkAttrs/JSON_discard/10_args-8 	 3699234	       338.7 ns/op	       0 B/op
 BenchmarkAttrs/JSON_discard/10_args-8 	 3639038	       330.8 ns/op	       0 B/op	       0 allocs/op
 BenchmarkAttrs/JSON_discard/10_args-8 	 3439284	       323.2 ns/op	       0 B/op	       0 allocs/op
 PASS
-ok  	golang.org/x/exp/slog/benchmarks/zerolog_benchmarks	30.876s
+ok  	github.com/jcbhmr/exp/slog/benchmarks/zerolog_benchmarks	30.876s

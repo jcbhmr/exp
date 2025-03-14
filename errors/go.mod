@@ -1,3 +1,3 @@
-module golang.org/x/exp/errors
+module github.com/jcbhmr/exp/errors
 
 go 1.23.0

@@ -13,7 +13,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"golang.org/x/exp/event"
+	"github.com/jcbhmr/exp/event"
 )
 
 // TODO: some actual research into what this arbritray optimization number should be

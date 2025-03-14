@@ -22,9 +22,9 @@ package logrus
 import (
 	"context"
 
+	"github.com/jcbhmr/exp/event"
+	"github.com/jcbhmr/exp/event/severity"
 	"github.com/sirupsen/logrus"
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/severity"
 )
 
 type formatter struct{}

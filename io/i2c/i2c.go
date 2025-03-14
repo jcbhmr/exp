@@ -8,10 +8,10 @@
 //
 // This package is not maintained anymore. An actively supported cross-platform
 // alternative is https://periph.io/.
-package i2c // import "golang.org/x/exp/io/i2c"
+package i2c // import "github.com/jcbhmr/exp/io/i2c"
 
 import (
-	"golang.org/x/exp/io/i2c/driver"
+	"github.com/jcbhmr/exp/io/i2c/driver"
 )
 
 const tenbitMask = 1 << 12

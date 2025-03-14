@@ -1,4 +1,4 @@
-module golang.org/x/exp/shiny
+module github.com/jcbhmr/exp/shiny
 
 go 1.23.0
 

@@ -10,7 +10,7 @@ package go122
 
 import (
 	"fmt"
-	"golang.org/x/exp/trace/internal/event"
+	"github.com/jcbhmr/exp/trace/internal/event"
 )
 
 const (
