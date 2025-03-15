@@ -14,6 +14,8 @@ import (
 	"strings"
 )
 
+// KEEP IN SYNC WITH INTERNAL
+// https://go.googlesource.com/go/+/refs/heads/master/src/internal/syslist/syslist.go
 var goarches []string = []string{
 	"386",
 	"amd64",
